@@ -3,6 +3,7 @@ from turtle import Turtle
 class ParsonTurtle(Turtle):
   def __init__(self):
     self._turtle = Turtle()
+    self._turtle.shape('turtle')
     self._commands = []
 
   def forward(self, dist, log=True):
